@@ -24,4 +24,8 @@ working directory,staging area, remote repository
  containers share host OS kernel,containers doesn,t pre-occupied host OS resources they they take resources as they need,containers do OS level virtuliazation.
  VM does hardware level virtualization,every VM has their own OS and resources are pre-allocated VM so they are reserved for the VM whether they use or not
 
+# Explain Docker Architecture 
+  Docker is installed on top of host OS like ubuntu,windows,Centos and containers run as processes and share hardware and Host OS kernel
+
+
 
