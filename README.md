@@ -33,5 +33,8 @@ docker network create assignment-2
 
 docker container run -d --publish 9090:80 --net assignment-2 --name assignment-2 nginx
 
+# command to see container assignment-2 logs
+docker container logs assignment-2
+
 
 
