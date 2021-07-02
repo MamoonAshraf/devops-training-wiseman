@@ -25,7 +25,13 @@ working directory,staging area, remote repository
  VM does hardware level virtualization,every VM has their own OS and resources are pre-allocated VM so they are reserved for the VM whether they use or not
 
 # Explain Docker Architecture 
-  Docker is installed on top of host OS like ubuntu,windows,Centos and containers run as processes and share hardware and Host OS kernel
+  Docker is installed on top of host OS like ubuntu,windows,Centos and containers run as processes and share hardware and Host OS kernel 
+
+# Write command to create an nginx container in detached mode with name assignment-2 running on host port 9090 on a custom network named assignment-2
+
+docker network create assignment-2
+
+docker container run -d --publish 9090:80 --net assignment-2 --name assignment-2 nginx
 
 
 
