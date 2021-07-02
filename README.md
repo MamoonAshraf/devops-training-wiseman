@@ -20,4 +20,8 @@ GitHub is a cloud-based hosting service that lets you manage Git repositories
 #Stages of Git
 working directory,staging area, remote repository
 
+#Explain Docker Containers vs VM,s
+ containers share host OS kernel,containers doesn,t pre-occupied host OS resources they they take resources as they need,containers do OS level virtuliazation.
+ VM does hardware level virtualization,every VM has their own OS and resources are pre-allocated VM so they are reserved for the VM whether they use or not
+
 
