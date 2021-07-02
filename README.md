@@ -44,5 +44,13 @@ docker container logs assignment-2
   cat index.html
   ls
 
+# persistant volume using bing mount method
+ docker container run -v ~/Desktop/mamoon/temp/:/usr/share/nginx/html/ -it --name nginxbingmount nginx
+docker container exec -it nginxbingmount /bin/bash
+cd /usr/share/nginx/html/
+vi Index.html
+"I am becoming a Docker Expert” and it should be persisted for the next times"
+:wq
+
 
 
